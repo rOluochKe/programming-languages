@@ -1,0 +1,19 @@
+{
+  "name": "cluster_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cluster_demo": "file:",
+    "express": "^4.19.2",
+    "loadtest": "^8.0.9",
+    "pm2": "^5.4.2"
+  }
+}

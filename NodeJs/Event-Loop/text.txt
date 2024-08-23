@@ -1,0 +1,30 @@
+micro-tasks (priority)
+- promise callbacks(.then, .catch, .finally)
+- mutation observer api
+- process.nextTick (node.js)
+- queueMicrotask function
+- await expressions in async functions
+
+macro-task
+- setTimeout and setInterval callbacks
+- DOM manipulation and rendering
+- I/O operations (file reading/writing)
+- network requests (XMLHttRequest, fetch)
+- event handlers (addEventListener)
+
+
+
+
+event loop process
+
+timers
+|
+pending callbacks
+|
+idle, prepare
+|
+poll    <- incoming: connections, data, etc
+|
+check
+|
+close callbacks
