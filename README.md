@@ -5,3 +5,4 @@
 - Python
 - NodeJS
 - Java
+- Go
